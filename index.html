@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Calculatar</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="mein-contanr">
+      <div class="calculater">
+      <div class="contanir">
+         <input type="text" id="input" disabled placeholder="">
+      </div>
+      <div class="buttons">
+         <button onclick="delNum('')"class="oprateo">C</button>
+         <button onclick="clearScreen('')"class="oprateo">AC</button>
+         <button onclick="input1('%')"class="oprateo">%</button>
+         <button onclick="input1('/')" class="oprateo">/</button><br>
+         <button onclick="input1(7)">7</button>
+         <button onclick="input1(8)">8</button>
+         <button onclick="input1(9)">9</button>
+         <button onclick="input1('*')" class="oprateo">x</button><br>
+         <button onclick="input1(4)">4</button>
+         <button onclick="input1(5)">5</button>
+         <button onclick="input1(6)">6</button>
+         <button onclick="input1('-')"class="oprateo">-</button><br>
+         <button onclick="input1(1)">1</button>
+         <button onclick="input1(2)">2</button>
+         <button onclick="input1(3)">3</button>
+         <button onclick="input1('+')"class="oprateo">+</button><br>
+         <button onclick="dubbleNums('00')">00</button>
+         <button onclick="input1(0)">0</button>
+         <button onclick="input1('.')"class="oprateo">.</button>
+         <button onclick="solve('=')"class="oprateo">=</button>
+      </div>
+     </div>
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>
