@@ -13,10 +13,6 @@ function solve(){
 function clearScreen(){
    document.getElementById("input").value = '' 
 }
-function dubbleNums(){
-   let dubbleNum = document.getElementById('input').value += 000
-   // let dubbleZero = dubbleNum.value = 00
-}
 function delNum(){
    let deletNum = document.getElementById("input").value
    let deletNums = deletNum.slice(0 , -1);
